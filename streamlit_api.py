@@ -6,8 +6,6 @@ from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
 import gdown  # To download the model from Google Drive
 
-# Install system dependencies
-st.run("apt-get install -y libgl1-mesa-glx")
 
 # Defining the number of classes
 num_classes = 5
