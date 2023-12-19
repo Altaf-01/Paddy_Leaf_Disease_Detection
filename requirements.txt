@@ -1,6 +1,6 @@
 streamlit==1.18.0
 numpy==1.21.0
 tensorflow==2.7.0
-gdown==4.1.2
+gdown
 opencv-python==4.5.2.54
 keras==2.6.0
