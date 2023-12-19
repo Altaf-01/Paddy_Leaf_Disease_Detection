@@ -2,5 +2,4 @@ streamlit
 numpy
 tensorflow
 gdown
-opencv-python==4.5.2.54
-keras
+opencv-python
