@@ -4,3 +4,6 @@ tensorflow
 gdown
 opencv-python
 keras
+
+# System packages
+libgl1-mesa-glx
