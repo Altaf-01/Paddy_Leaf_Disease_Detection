@@ -1,10 +1,7 @@
 # Python packages
-streamlit
-numpy
-tensorflow
-gdown
-opencv-python
-keras
-
-# System packages
-libgl1-mesa-glx
+streamlit==1.18.0
+numpy==1.21.0
+tensorflow==2.7.0
+gdown==4.1.2
+opencv-python==4.5.2.54
+keras==2.6.0
