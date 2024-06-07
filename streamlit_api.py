@@ -44,7 +44,7 @@ def preprocess_image(img):
 
 # Streamlit app
 def main():
-    st.title("Leaf Disease Prediction App")
+    st.title("Paddy Leaf Disease Prediction App")
 
     # Upload image through Streamlit
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
