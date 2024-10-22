@@ -4,6 +4,7 @@ import streamlit as st
 from keras.models import load_model
 from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
+from tensorflow.keras.utils import load_img
 import gdown  # To download the model from Google Drive
 
 
@@ -55,7 +56,7 @@ def main():
         st.image(image_display, caption="Uploaded Image", use_column_width=True)
 
         # Preprocess the uploaded image
-        img = image.load_img(uploaded_file, target_size=(224, 224))
+        img = load_img(uploaded_file, target_size=(224, 224))
         img = preprocess_image(img)
 
         # Extract features using the VGG16 base model
