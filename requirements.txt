@@ -4,3 +4,4 @@ gdown
 tensorflow==2.11.0
 opencv-python==4.7.0.72
 keras
+altair>=4.0
